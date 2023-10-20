@@ -1,0 +1,14 @@
+﻿  PictureChanger.cpp
+D:\ProgFiles\C++\PictureChanger\PictureChanger.cpp(100,44): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\ProgFiles\C++\PictureChanger\PictureChanger.cpp(112,63): warning C4244: аргумент: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+D:\ProgFiles\C++\PictureChanger\PictureChanger.cpp(112,38): warning C4244: аргумент: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+PictureChanger.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+  PictureChanger.vcxproj -> D:\ProgFiles\C++\PictureChanger\x64\Debug\PictureChanger.exe
