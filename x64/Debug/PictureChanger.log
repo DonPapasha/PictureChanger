@@ -1,11 +1,11 @@
 ﻿  PictureChanger.cpp
-D:\ProgFiles\C++\PictureChanger\PictureChanger.cpp(100,44): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-D:\ProgFiles\C++\PictureChanger\PictureChanger.cpp(112,63): warning C4244: аргумент: преобразование "double" в "_Tp", возможна потеря данных
+D:\ProgFiles\C++\PictureChanger\PictureChanger.cpp(98,44): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\ProgFiles\C++\PictureChanger\PictureChanger.cpp(110,63): warning C4244: аргумент: преобразование "double" в "_Tp", возможна потеря данных
           with
           [
               _Tp=float
           ]
-D:\ProgFiles\C++\PictureChanger\PictureChanger.cpp(112,38): warning C4244: аргумент: преобразование "double" в "_Tp", возможна потеря данных
+D:\ProgFiles\C++\PictureChanger\PictureChanger.cpp(110,38): warning C4244: аргумент: преобразование "double" в "_Tp", возможна потеря данных
           with
           [
               _Tp=float

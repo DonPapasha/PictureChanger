@@ -127,6 +127,22 @@ void Difference()
     Mat threshUserImg, threshNewImg;
     threshold(userImg, threshUserImg, 127, 255, THRESH_BINARY);
     threshold(newImg, threshNewImg, 127, 255, THRESH_BINARY);
+
+    Moments momUserImg = moments(threshUserImg);
+    Moments momNewImg = moments(threshNewImg);
+
+    double huMomUserImg[7];
+    double huMomNewImg[7];
+    HuMoments(momUserImg, huMomUserImg);
+    HuMoments(momNewImg, huMomNewImg);
+
+    for (int i = 0; i < 7; i++) {
+        cout << "Моменты изначального изображения H[" << i <<"] : " << huMomUserImg[i] << endl;
+    }
+    cout << "" << endl;
+    for (int i = 0; i < 7; i++) {
+        cout << "Моменты изменённого изображения H[" << i << "] : " << huMomNewImg[i] << endl;
+    }
     
     double _difference1 = matchShapes(threshUserImg, threshNewImg, CONTOURS_MATCH_I1, 0);
     double _difference2 = matchShapes(threshUserImg, threshNewImg, CONTOURS_MATCH_I2, 0);
